@@ -1,0 +1,389 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/image-8.png
+    - assets/page-1/images/group-17.png
+    - assets/page-1/images/group-17-ERX.png
+    - assets/page-1/images/typcn-plus.png
+    - assets/page-1/images/group-17-r6M.png
+    - assets/page-1/images/image-10.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/image-7.png
+    - assets/page-1/images/frame-2.png
+    - assets/page-1/images/frame-2-Ugh.png
+    - assets/page-1/images/group-17-CYh.png
+    - assets/page-1/images/vector-8fB.png
+    - assets/page-1/images/group-17-7jF.png
+    - assets/page-1/images/group-17-NGR.png
+    - assets/page-1/images/frame.png
+    - assets/page-1/images/group-1.png
+    - assets/page-1/images/mingcute-glass-cup-fill.png
+    - assets/page-1/images/group-1-ojf.png
+    - assets/page-1/images/vector-tnM.png
+    - assets/page-1/images/vector-HNZ.png
+    - assets/page-1/images/group-12.png
+    - assets/page-1/images/typcn-plus-vAV.png
+    - assets/page-1/images/typcn-plus-53w.png
+    - assets/page-1/images/group-2.png
+    - assets/page-1/images/vector-pZ7.png
+    - assets/page-1/images/auto-group-wxhs.png
+    - assets/page-1/images/frame-2-Tk5.png
+    - assets/page-1/images/group-2-7Kw.png
+    - assets/page-1/images/fluent-emoji-high-contrast-chair.png
+    - assets/page-1/images/typcn-plus-hcm.png
+    - assets/page-1/images/typcn-plus-zrm.png
+    - assets/page-1/images/group-17-NRw.png
+    - assets/page-1/images/typcn-plus-jhT.png
+    - assets/page-1/images/charm-circle-tick.png
+    - assets/page-1/images/group-1-rdP.png
+    - assets/page-1/images/group-17-mMb.png
+    - assets/page-1/images/grommet-icons-radial.png
+    - assets/page-1/images/mdi-bathroom-tissue.png
+    - assets/page-1/images/game-icons-water-gallon.png
+    - assets/page-1/images/vector-Q9F.png
+    - assets/page-1/images/group-1-ovR.png
+    - assets/page-1/images/game-icons-water-gallon-8t9.png
+    - assets/page-1/images/mdi-clock-arrow.png
+    - assets/page-1/images/group-6.png
+    - assets/page-1/images/codicon-account.png
+    - assets/page-1/images/image-9.png
+    - assets/page-1/images/codicon-account-fGm.png
+    - assets/page-1/images/frame-2-1Wh.png
+    - assets/page-1/images/group-8.png
+    - assets/page-1/images/vector-BpM.png
+    - assets/page-1/images/codicon-account-5p5.png
+    - assets/page-1/images/frame-2-Uth.png
+    - assets/page-1/images/vector-PHT.png
+    - assets/page-1/images/charm-circle-tick-DrH.png
+    - assets/page-1/images/group-5.png
+    - assets/page-1/images/vector-EjB.png
+    - assets/page-1/images/group-12-HMK.png
+    - assets/page-1/images/grommet-icons-radial-p9o.png
+    - assets/page-1/images/grommet-icons-radial-CJ5.png
+    - assets/page-1/images/grommet-icons-radial-VeH.png
+    - assets/page-1/images/group-12-86D.png
+    - assets/page-1/images/frame-34.png
+    - assets/page-1/images/grommet-icons-radial-WKb.png
+    - assets/page-1/images/group-1-ZNy.png
+    - assets/page-1/images/auto-group-1ezr.png
+    - assets/page-1/images/vector-fZb.png
+    - assets/page-1/images/codicon-account-JbT.png
+    - assets/page-1/images/request-for-proposal-2.png
+    - assets/page-1/images/grommet-icons-radial-97f.png
+    - assets/page-1/images/auto-group-hqky.png
+    - assets/page-1/images/group-9.png
+    - assets/page-1/images/frame-6LH.png
+    - assets/page-1/images/codicon-account-xAm.png
+    - assets/page-1/images/grommet-icons-radial-dTX.png
+    - assets/page-1/images/vector-73f.png
+    - assets/page-1/images/grommet-icons-radial-f6R.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/group-1-X7f.png
+    - assets/page-1/images/group-13.png
+    - assets/page-1/images/frame-2-fzZ.png
+    - assets/page-1/images/grommet-icons-radial-Ath.png
+    - assets/page-1/images/ri-arrow-up-s-line.png
+    - assets/page-1/images/mdi-clock-arrow-q7f.png
+    - assets/page-1/images/fluent-emoji-high-contrast-chair-xAD.png
+    - assets/page-1/images/group-1-SDo.png
+    - assets/page-1/images/group-12-ZgM.png
+    - assets/page-1/images/-eNm.png
+    - assets/page-1/images/grommet-icons-radial-ifK.png
+    - assets/page-1/images/grommet-icons-radial-hih.png
+    - assets/page-1/images/codicon-account-aAm.png
+    - assets/page-1/images/grommet-icons-radial-Dt5.png
+    - assets/page-1/images/codicon-account-2vd.png
+    - assets/page-1/images/mdi-clock-arrow-XW1.png
+    - assets/page-1/images/mdi-clock-arrow-m2H.png
+    - assets/page-1/images/mdi-clock-arrow-kqo.png
+    - assets/page-1/images/group-17-iTT.png
+    - assets/page-1/images/frame-yWh.png
+    - assets/page-1/images/group-3.png
+    - assets/page-1/images/group-4.png
+    - assets/page-1/images/grommet-icons-radial-Fiy.png
+    - assets/page-1/images/ri-arrow-up-s-line-UVo.png
+    - assets/page-1/images/codicon-account-WrD.png
+    - assets/page-1/images/frame-UeM.png
+    - assets/page-1/images/ri-arrow-up-s-line-BYm.png
+    - assets/page-1/images/image-7-2kH.png
+    - assets/page-1/images/mdi-clock-arrow-vVf.png
+    - assets/page-1/images/grommet-icons-radial-eFs.png
+    - assets/page-1/images/frame-uRB.png
+    - assets/page-1/images/frame-qcD.png
+    - assets/page-1/images/vector-XG5.png
+    - assets/page-1/images/mdi-clock-arrow-ek1.png
+    - assets/page-1/images/group-12-gXb.png
+    - assets/page-1/images/grommet-icons-radial-6em.png
+    - assets/page-1/images/group-17-pqf.png
+    - assets/page-1/images/frame-Hbw.png
+    - assets/page-1/images/group-17-End.png
+    - assets/page-1/images/-3H3.png
+    - assets/page-1/images/-xdX.png
+    - assets/page-1/images/mdi-clock-arrow-QUh.png
+    - assets/page-1/images/group-17-jh3.png
+    - assets/page-1/images/grommet-icons-radial-mvZ.png
+    - assets/page-1/images/image-8-XPw.png
+    - assets/page-1/images/group-7.png
+    - assets/page-1/images/group-17-hmT.png
+    - assets/page-1/images/mdi-clock-arrow-An5.png
+    - assets/page-1/images/vector-YhF.png
+    - assets/page-1/images/group-17-yPw.png
+    - assets/page-1/images/charm-circle-tick-uJ1.png
+    - assets/page-1/images/group-14.png
+    - assets/page-1/images/group-17-5A1.png
+    - assets/page-1/images/image-9-9S1.png
+    - assets/page-1/images/frame-2-WQq.png
+    - assets/page-1/images/game-icons-rolled-cloth.png
+    - assets/page-1/images/vector-pTT.png
+    - assets/page-1/images/group-10.png
+    - assets/page-1/images/group-17-oQV.png
+    - assets/page-1/images/vector-cWD.png
+    - assets/page-1/images/charm-circle-tick-Nz5.png
+    - assets/page-1/images/mdi-bathroom-tissue-ghF.png
+    - assets/page-1/images/mdi-clock-arrow-iLy.png
+    - assets/page-1/images/-GGR.png
+    - assets/page-1/images/group-17-MZK.png
+    - assets/page-1/images/vector-q8M.png
+    - assets/page-1/images/charm-circle-tick-3bf.png
+    - assets/page-1/images/vector-4uF.png
+    - assets/page-1/images/group-17-9xd.png
+    - assets/page-1/images/group-17-E3b.png
+    - assets/page-1/images/vector-NHX.png
+    - assets/page-1/images/group-17-tmf.png
+    - assets/page-1/images/vector-KHs.png
+    - assets/page-1/images/group-17-LED.png
+    - assets/page-1/images/group-2-6Ch.png
+    - assets/page-1/images/image-7-yww.png
+    - assets/page-1/images/vector-n57.png
+    - assets/page-1/images/charm-circle-tick-veV.png
+    - assets/page-1/images/group-17-8vu.png
+    - assets/page-1/images/-BiZ.png
+    - assets/page-1/images/group-17-VpM.png
+    - assets/page-1/images/game-icons-water-gallon-QzV.png
+    - assets/page-1/images/auto-group-6qup.png
+    - assets/page-1/images/group-17-6m7.png
+    - assets/page-1/images/group-17-S4H.png
+    - assets/page-1/images/vector-xxH.png
+    - assets/page-1/images/frame-2-Lhw.png
+    - assets/page-1/images/typcn-plus-TUD.png
+    - assets/page-1/images/charm-circle-tick-kMP.png
+    - assets/page-1/images/charm-circle-tick-hFF.png
+    - assets/page-1/images/completed-amico-1.png
+    - assets/page-1/images/typcn-plus-RvH.png
+    - assets/page-1/images/group-17-aHP.png
+    - assets/page-1/images/group-17-8Zo.png
+    - assets/page-1/images/vector-v2M.png
+    - assets/page-1/images/group-17-YQR.png
+    - assets/page-1/images/typcn-plus-6Rw.png
+    - assets/page-1/images/game-icons-water-gallon-Dus.png
+    - assets/page-1/images/frame-2-Aq7.png
+    - assets/page-1/images/vector-E7T.png
+    - assets/page-1/images/charm-circle-tick-5t5.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/vector-4uf.png
+    - assets/page-1/images/mdi-bathroom-tissue-bf7.png
+    - assets/page-1/images/-VgV.png
+    - assets/page-1/images/charm-circle-tick-Ee5.png
+    - assets/page-1/images/group-17-ro3.png
+    - assets/page-1/images/vector-gTB.png
+    - assets/page-1/images/typcn-plus-vVf.png
+    - assets/page-1/images/group-17-81w.png
+    - assets/page-1/images/group-17-RgV.png
+    - assets/page-1/images/group-17-gph.png
+    - assets/page-1/images/group-17-rCZ.png
+    - assets/page-1/images/group-17-sYm.png
+    - assets/page-1/images/charm-circle-tick-3J9.png
+    - assets/page-1/images/fluent-emoji-high-contrast-chair-qEZ.png
+    - assets/page-1/images/raphael-clip.png
+    - assets/page-1/images/group-17-Fr1.png
+    - assets/page-1/images/group-17-tuP.png
+    - assets/page-1/images/group-17-AqX.png
+    - assets/page-1/images/vector-1Ud.png
+    - assets/page-1/images/image-10-7Ld.png
+    - assets/page-1/images/image-8-giV.png
+    - assets/page-1/images/frame-2-WRf.png
+    - assets/page-1/images/group-17-enm.png
+    - assets/page-1/images/image-9-ywP.png
+    - assets/page-1/images/group-17-TVB.png
+    - assets/page-1/images/image-10-QDP.png
+    - assets/page-1/images/auto-group-pbxz.png
+    - assets/page-1/images/game-icons-rolled-cloth-3km.png
+    - assets/page-1/images/game-icons-water-gallon-iGZ.png
+    - assets/page-1/images/ph-stamp.png
+    - assets/page-1/images/group-17-xcZ.png
+    - assets/page-1/images/frame-2-V29.png
+    - assets/page-1/images/game-icons-rolled-cloth-4hF.png
+    - assets/page-1/images/charm-circle-tick-CHf.png
+    - assets/page-1/images/group-17-wpm.png
+    - assets/page-1/images/fluent-emoji-high-contrast-chair-G6u.png
+    - assets/page-1/images/image-10-29o.png
+    - assets/page-1/images/image-11.png
+    - assets/page-1/images/image-9-G2m.png
+    - assets/page-1/images/image-9-ap9.png
+    - assets/page-1/images/group-17-Fof.png
+    - assets/page-1/images/vector-PX7.png
+    - assets/page-1/images/frame-2-RcD.png
+    - assets/page-1/images/frame-2-Xku.png
+    - assets/page-1/images/game-icons-rolled-cloth-LL1.png
+    - assets/page-1/images/ph-stamp-dnH.png
+    - assets/page-1/images/vector-Rc5.png
+    - assets/page-1/images/group-17-H1j.png
+    - assets/page-1/images/frame-2-nGq.png
+    - assets/page-1/images/charm-circle-tick-hQM.png
+    - assets/page-1/images/raphael-clip-T7P.png
+    - assets/page-1/images/group-17-YLy.png
+    - assets/page-1/images/game-icons-rolled-cloth-Kbw.png
+    - assets/page-1/images/ph-envelope.png
+    - assets/page-1/images/charm-circle-tick-F1T.png
+    - assets/page-1/images/typcn-plus-ABT.png
+    - assets/page-1/images/raphael-clip-WZo.png
+    - assets/page-1/images/group-17-jbf.png
+    - assets/page-1/images/ph-envelope-W2d.png
+    - assets/page-1/images/group-17-zTs.png
+    - assets/page-1/images/charm-circle-tick-iU9.png
+    - assets/page-1/images/group-17-5kM.png
+    - assets/page-1/images/group-17-DxV.png
+    - assets/page-1/images/group-17-wwo.png
+    - assets/page-1/images/vector-t25.png
+    - assets/page-1/images/frame-2-825.png
+    - assets/page-1/images/charm-circle-tick-Qad.png
+    - assets/page-1/images/raphael-clip-5Ay.png
+    - assets/page-1/images/ph-folder-open.png
+    - assets/page-1/images/group-17-7KF.png
+    - assets/page-1/images/charm-circle-tick-h8D.png
+    - assets/page-1/images/charm-circle-tick-css.png
+    - assets/page-1/images/ph-envelope-EuX.png
+    - assets/page-1/images/group-17-ZvR.png
+    - assets/page-1/images/ph-folder-open-2mP.png
+    - assets/page-1/images/group-17-ABK.png
+    - assets/page-1/images/group-17-3n9.png
+    - assets/page-1/images/ph-folder-open-j3o.png
+    - assets/page-1/images/frame-2-1Tf.png
+    - assets/page-1/images/frame-2-Vdj.png
+    - assets/page-1/images/group-17-QdX.png
+    - assets/page-1/images/mdi-ink-color.png
+    - assets/page-1/images/mdi-ink-color-3w7.png
+    - assets/page-1/images/group-17-GXK.png
+    - assets/page-1/images/group-17-4T3.png
+    - assets/page-1/images/group-17-BXX.png
+    - assets/page-1/images/charm-circle-tick-Sad.png
+    - assets/page-1/images/frame-2-PAR.png
+    - assets/page-1/images/carbon-white-paper.png
+    - assets/page-1/images/quill-paper.png
+    - assets/page-1/images/mdi-ink-color-BRb.png
+    - assets/page-1/images/group-17-MCu.png
+    - assets/page-1/images/frame-2-8kh.png
+    - assets/page-1/images/group-17-Y25.png
+    - assets/page-1/images/carbon-white-paper-kFs.png
+    - assets/page-1/images/typcn-plus-E8Z.png
+    - assets/page-1/images/carbon-white-paper-iQH.png
+    - assets/page-1/images/ph-envelope-j8d.png
+    - assets/page-1/images/group-1-Kp5.png
+    - assets/page-1/images/ph-stamp-uJ9.png
+    - assets/page-1/images/ph-folder-open-LVf.png
+    - assets/page-1/images/mdi-ink-color-cHf.png
+    - assets/page-1/images/group-2-NKj.png
+    - assets/page-1/images/frame-3.png
+    - assets/page-1/images/request-for-proposal-1.png
+    - assets/page-1/images/fluent-emoji-high-contrast-chair-iKK.png
+    - assets/page-1/images/group-1-tvd.png
+    - assets/page-1/images/game-icons-rolled-cloth-7Pw.png
+    - assets/page-1/images/ph-printer.png
+    - assets/page-1/images/raphael-clip-Hmb.png
+    - assets/page-1/images/solar-box-outline.png
+    - assets/page-1/images/carbon-white-paper-P2R.png
+    - assets/page-1/images/image-6.png
+    - assets/page-1/images/forgot-password-amico-1.png
+    - assets/page-1/images/logo-2.png
+    - assets/page-1/images/logo-1.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
